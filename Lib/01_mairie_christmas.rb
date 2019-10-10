@@ -32,7 +32,7 @@ def get_townhall_email(url)                             #La def pour aller cherc
 
         result_array=Array.new                          #On crée un array qu'on organise en colonne avec les noms de ville et les mails
         town_name=""
-	    all_mail=""
+	all_mail=""
 
 
         get_townhall_urls(url).each do |url_list|           #Fais une boucle dans la première méthode pour aller chercher dans toutes les URL 
